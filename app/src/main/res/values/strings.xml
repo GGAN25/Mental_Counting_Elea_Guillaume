@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name" translatable="false">MentalCounting</string>
+    <string name="resetscore">Score reset</string>
+    <string name="game">Game</string>
+    <string name="score">Score</string>
+    <string name="validate">Validate</string>
+    <string name="operation_count">Operation Count :</string>
+    <string name="win_rate">Win rate :</string>
+    <string name="last_operation">Last Operation :</string>
+    <string name="back">Back</string>
+</resources>

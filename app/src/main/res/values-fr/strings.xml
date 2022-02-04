@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="game">Jeux</string>
+    <string name="score">Score</string>
+    <string name="resetscore">Score effacé</string>
+    <string name="validate">Valider</string>
+    <string name="operation_count">Nombre d\'opération :</string>
+    <string name="win_rate">Pourcentage de réussite :</string>
+    <string name="last_operation">Dernière opération :</string>
+    <string name="back">Retour</string>
+</resources>
