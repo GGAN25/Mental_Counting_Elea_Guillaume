@@ -1,4 +1,4 @@
-package com.example.mentalcounting;
+package com.example.mentalcounting.activities;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,8 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.widget.Toast;
+
+import com.example.mentalcounting.R;
 
 public class GameActivity extends AppCompatActivity {
 
