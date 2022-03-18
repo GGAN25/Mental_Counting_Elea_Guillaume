@@ -9,4 +9,8 @@
     <string name="last_operation">Dernière opération :</string>
     <string name="back">Retour</string>
     <string name="invalid_operator">Operateur invalide</string>
+    <string name="resultvalidation">Voici l\'operation</string>
+    <string name="GoodAnswer">Bonne reponse</string>
+    <string name="WrongAnswer">Mauvaise reponse</string>
+    <string name="nouvelle_op_ration">Nouvelle opération</string>
 </resources>

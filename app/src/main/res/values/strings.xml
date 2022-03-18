@@ -9,4 +9,8 @@
     <string name="last_operation">Last Operation :</string>
     <string name="back">Back</string>
     <string name="invalid_operator">Invalid Operator</string>
+    <string name="resultvalidation">Here\'s your operation</string>
+    <string name="GoodAnswer">Good answer</string>
+    <string name="WrongAnswer">Wrong answer</string>
+    <string name="nouvelle_op_ration">New operation</string>
 </resources>
