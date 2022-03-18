@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -105,15 +106,19 @@ public class GameActivity extends AppCompatActivity {
         ResolutionService vs = new ResolutionService();
 
         TextView resultTextView = findViewById(R.id.Result);
+        TextView goodanswerTextView = findViewById(R.id.GoodResult);
+        TextView wronganswerTextView = findViewById(R.id.WrongResult);
         if(vs.Verif(om, result)){
 
-            resultTextView.setTextColor(R.color.green);
-            resultTextView.setText(R.string.GoodAnswer);
+            goodanswerTextView.setVisibility(View.VISIBLE);
+            wronganswerTextView.setVisibility(View.INVISIBLE);
+            resultTextView.setVisibility(View.INVISIBLE);
 
 
-        } else {
-            resultTextView.setTextColor(R.color.red);
-            resultTextView.setText(R.string.WrongAnswer);
+        } else{
+            wronganswerTextView.setVisibility(View.VISIBLE);
+            goodanswerTextView.setVisibility(View.INVISIBLE);
+            resultTextView.setVisibility(View.INVISIBLE);
 
         }
     }
